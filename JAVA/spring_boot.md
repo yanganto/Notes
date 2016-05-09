@@ -3,13 +3,17 @@
 ###### https://www.youtube.com/watch?v=7L5rBQUMiPI
 ---
 ## Maven
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-actuator</artifactId>
-    </dependency>
+```
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+```
 
 ## Gradle
+```
     compile("org.springframework.boot:spring-boot-starter-actuator")
+```
 
 
 - this setting is not applied Chares project, with following error:
@@ -27,21 +31,48 @@
   * /dump
   * /health
   * /metics
-    * httpsessions.active **provid w/ Tomcat**
+  * httpsessions.active **provid w/ Tomcat**
   * /trace - **Not** find out if any current existing_, recent complete request only
-  * /shutdown - _need to be enabled_ **Not shutdown gracefully**
+  * /shutdown - _need to be enabled_
+```
+try {
+  return SHUTDOWN_MESSAGE;
+}
+finally {
+  new Thread(new Runnable() {
+
+    @Override
+    public void run() {
+      try {
+        Thread.sleep(500L);
+      }
+      catch (InterruptedException ex) {
+        // Swallow exception and continue
+      }
+      ShutdownEndpoint.this.context.close();
+    }
+
+  }).start();
+}
+```
 
 ---
 
 ## Externalized Configurations
 ### properties file or YAML file
 **/helth => /status**
-  - endpoints.health.id=status
-  - endpoints.health.sensitive=false
+```
+endpoints.health.id=status
+endpoints.health.sensitive=false
+```
 
 **enable shutdown**
-  - endpoints.shutdown.enabled=true
-  - endpoints.shutdown.sensitive=false
+```
+endpoints.shutdown.enabled=true
+endpoints.shutdown.sensitive=false
+```
 
 **/status => /check/health**
-  - management.context-path=/check  
+```
+management.context-path=/check  
+```
