@@ -34,6 +34,7 @@
   * httpsessions.active **provid w/ Tomcat**
   * /trace - **Not** find out if any current existing_, recent complete request only
   * /shutdown - _need to be enabled_
+shutdown endpoint source code
 ```
 try {
   return SHUTDOWN_MESSAGE;
@@ -56,6 +57,7 @@ finally {
 }
 ```
 
+
 ---
 
 ## Externalized Configurations
@@ -72,7 +74,15 @@ endpoints.shutdown.enabled=true
 endpoints.shutdown.sensitive=false
 ```
 
-**/status => /check/health**
+**:8080/status => :8081/check/health (localhost only and basic http auth)**
 ```
 management.context-path=/check  
+management.port=8081
+management.address=127.0.0.1
+management.security.enabled=true
+security.basic.enabled=true
+security.user.name=admin
+security.user.password=password
 ```
+security dependency: spring-boot-starter-security
+all page with the same authorization
