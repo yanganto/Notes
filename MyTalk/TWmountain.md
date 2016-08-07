@@ -3,7 +3,7 @@ background-size: contain;
 
 >#山
 
-???
+???20
 哲學
 How to hiking safe
 
@@ -13,7 +13,7 @@ background-image: url(/TWmountain/tw.jpg)
 #台灣山岳
 
 
-???
+???20
 3000M  up 269
 
 ---
@@ -27,9 +27,13 @@ background-image: url(/TWmountain/c.jpg)
 
 .right[找路 月光●沙韻●Klesan-林克孝 自序]
 
+???20
+
 ---
 
 background-image: url(/TWmountain/WuTa.jpg)
+
+???20
 
 ---
 
@@ -43,45 +47,51 @@ background-image: url(/TWmountain/chia.jpg)
 - 活在當下
 
 
+???20
+
 ---
 background-image: url(/TWmountain/874.jpg)
 
 class: center
 
-???
 #裝備
+
+???20
 
 ---
 background-image: url(/TWmountain/pack.jpg)
 
 class: center
 
-???
+???20
 #裝備
+
 
 ---
 background-image: url(/TWmountain/eat.jpg)
 
 class: bottom, right
 
-???
+???20
 #食
 6days
+
 
 ---
 background-image: url(/TWmountain/sn.jpg)
 
 class: center
 
-???
+???20
 #衣 3 layer 
+
 
 ---
 background-image: url(/TWmountain/sm.jpg)
 
 class: center
 
-???
+???20
 #行
 
 ---
@@ -89,6 +99,6 @@ background-image: url(/TWmountain/walk.jpg)
 
 class: center
 
-???
+???20
 #行
 

@@ -42,3 +42,6 @@
 			- creatine phosphate
 ##### ref
 [ATP-CP](http://www.hksports.net/hkpe/nss_pe/human_body/anaerobic_system.htm)
+
+---
+
