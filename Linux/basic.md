@@ -1,13 +1,15 @@
-# Linux Shell programing note
+# Linux Shell note
 
 ---
-#Package system
+
+# Package system
   * Debian, Ubuntu - deb/apt
   * RedHat, CentOS, Fedora - rpm/yum
   * SUSE - rpm/zypp
 > Arch - tar.xz/pacman
 ---
-#Common Shell
+
+# Common Shell
 
   * Bourne Shell
     * sh, ash, **bash**, dash, zsh
@@ -16,7 +18,8 @@
 > Zsh is the best shell
   
 ---
-#Boot Sequence
+
+# Boot Sequence
 boot loader -> kernel(/boot/vmlinuz) -> /sbin/init (define run level)
 ->
 * /etc/rc.d/rc.sysin
@@ -65,3 +68,25 @@ $ echo $current_folder	# $current_folder variable
 
 $ vi note-`date +%F`.txt	# vi note-2013-05-04.txt
 ```
+
+---
+
+# Network Command
+
+```
+# ifconfig  
+# ifconfig <interface> 192.168.1.2 netmask 255.255.255.0 
+```
+> This setting is only in memory
+
+```
+# route 
+# route add default gw 192.168.1.200
+# route del default gw 192.168.1.200
+```
+
+```
+# ifconfig <interface> up 
+# ifconfig <interface> down 
+```
+
