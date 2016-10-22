@@ -1,0 +1,18 @@
+# Commentary and Doc of Go
+---
+
+# Comment to Doc
+- Package comment
+  - before the `package somepackage`
+- Function comment
+  - before the `func AFunciotn ( input int) int {}`
+
+ref: [effective go](https://golang.org/doc/effective_go.html#commentary)
+
+---
+# The rule to html
+- use blank line separate into different <p></p>
+- use indent for pre-formate
+- url become link, no need markup
+
+ref: [go doc](https://blog.golang.org/godoc-documenting-go-code)

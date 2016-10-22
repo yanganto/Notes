@@ -1,9 +1,4 @@
 # Go Build and Make
-  - go build and go install
-  - about makefile
-    - pure makefile for go
-    - go-makefile (w/ docker)
-
 ---
 
 # $GOPATH
@@ -25,9 +20,10 @@
 
 ---
 # Makefile for Go
+A simple example for passing variable on build
 
 Makefile
-```
+```makefile
 SOURCEDIR=.
 SOURCES := $(shell find $(SOURCEDIR) -name '*.go')
 
@@ -53,7 +49,7 @@ clean:
 ```
 
 github/ariejan/roll/version.go
-```
+```go
 package core
 
 import "fmt"
@@ -85,7 +81,7 @@ func (v version) String() string {
 
 Author: [Jon Eisen](https://gist.github.com/dnishimura/2961173)
 
-```
+```makefile
 # Makefile for a go project
 #
 # Author: Jon Eisen
