@@ -1,9 +1,9 @@
-Adapt to change and exploring Vue.js
----
+# Adapt to change and exploring Vue.js
 speacker: Blake Newman
 
-Objective
 ---
+
+# Objective
 - keep control
   - dependence management
     - `npm i -g npm-check-updates`
@@ -23,13 +23,14 @@ Objective
     - both js, css, html
   - **H**ot **M**odule **R**eplacement
 
-Problems w/ Frameworks
 ---
+
+# Problems w/ Frameworks
 > choose ur fw as if u will need to change in 6 month
 
-
-Feature
 ---
+
+# Feature
 - view layer
 - reactivity
 - extenable via plugins

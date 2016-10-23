@@ -1,10 +1,9 @@
-
-ThinkJS
----
+# ThinkJS
 speaker: 李成銀
 
-Koa
 ---
+
+# Koa
 > a middleware for HTTP req/res  
 
 different btw thinkJS and Koa
@@ -14,10 +13,9 @@ different btw thinkJS and Koa
 - ThinkJS
   - adaptor, middleware
 
-
-
-Best Practice
 ---
+
+# Best Practice
 Try to implement by ThinkJS with ES6
 - class
 - ES2015+
@@ -26,6 +24,7 @@ Try to implement by ThinkJS with ES6
   - do validation, default value
 - system call, and regular jobs
 
-Debugging
 ---
+
+# Debugging
 - source map

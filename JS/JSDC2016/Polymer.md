@@ -1,22 +1,24 @@
-Polymer toolbox
----
+# Polymer toolbox
 speaker: Monica Dinculescu
 
-Polymer
 ---
+
+# Polymer
 > easier webcomponents  
 > there's an element for that
 > ready to offline
 
-Web Component
 ---
+
+# Web Component
 ```html
 <link rel="import" href="app.html">
 <app></app>
 ```
 
-Autheorization
 ---
+
+# Autheorization
 Use Firebase
 ```html
 <firebase-app>

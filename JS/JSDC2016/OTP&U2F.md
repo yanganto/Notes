@@ -1,9 +1,9 @@
-OTP is dead and U2F comes
----
+# OTP is dead and U2F comes
 speacker: Vincent
 
-What is U2F ?
 ---
+
+# What is U2F ?
 > user <-> user agent <---> Server
 
 - who is server?
@@ -11,9 +11,9 @@ What is U2F ?
 - who is user?
   - By Password -> hash checking
 
-
-Traditional Password
 ---
+
+# Traditional Password
 - prop
   - ez to use and know
 
@@ -23,13 +23,15 @@ Traditional Password
   - password repeating
   - easy to phish
 
-Password Manager
 ---
+
+# Password Manager
 - corn
   - not normalize with lots of dirty hack
 
-2-FA
 ---
+
+# 2-FA
 > must have **2** credential
 
 - usually by SMS
@@ -41,14 +43,16 @@ Password Manager
   - prop: hight security
   - corn: bad UX, ez to phish
 
-Security Issue
 ---
+
+# Security Issue
 - personal information (majority)
 - beat the service
 - getting info from service
 
-FIDO
 ---
+
+# FIDO
 > Fast Identity Online  
 
 - U2F, UAF, W3C working draft
@@ -61,8 +65,9 @@ FIDO
 
 - use phsical push
 
-FIDO document
 ---
+
+#FIDO document
 - Overview
 - JS API
 - Raw msg

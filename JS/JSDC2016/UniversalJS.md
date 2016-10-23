@@ -1,24 +1,23 @@
-Universal JS
----
+# Universal JS
 > best practice for SPA
 
-
-SPA
 ---
+
+# SPA
 > Single Page Application
 
 - corn: load performance
 
-
-Not suitable
 ---
+
+# Not suitable
 - time dependent page
 - SEO
 - First time render
 
-
-Framework Merge
 ---
+
+# Framework Merge
 - Componentlize
   - react, vue, angular
 - Signle Data Flow
@@ -30,13 +29,15 @@ Framework Merge
   - Native app
   - Server side render
 
-Advantage
 ---
+
+# Advantage
 - first time server render
 - and SPA forever
 
-Step by Steps
 ---
+
+# Step by Steps
 1. router (server render as client render)
 2. AJAX (In server side must check the AJAX data back)
   - static
@@ -49,8 +50,9 @@ Step by Steps
     - webpack config
   - truely static
 
-Pain point
 ---
+
+# Pain point
 - View - backend vs fontend
   - data vs visual compoent
 - CSS render critical path

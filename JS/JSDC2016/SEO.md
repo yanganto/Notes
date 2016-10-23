@@ -1,27 +1,29 @@
-SEO meetup JS
----
+# SEO meetup JS
 speacker: Jose & Wildcat
 
-
-JS-Based protal
 ---
+
+# JS-Based protal
 - AJAX - lest URLs
   - not good for Yahoo engine
 
-Google AJAX-Crawling Scheme
 ---
+
+# Google AJAX-Crawling Scheme
 - deprecating
 - However, google bot **can** crawing the AJAX content
 
-Suggestion from google
 ---
+
+# Suggestion from google
 - don Not use # anchor
 - combine js file avoid using multi-request(2016/03/04)
 - AJAX alsto need __title__, __description__
 - user **a** **href** to go to other link
 
-A better SEO
 ---
+
+# A better SEO
 - Complete **Index**
 - **Three** key words, dont be greedy, and rational
   - 關島 (Key word)
@@ -47,6 +49,8 @@ A better SEO
   - key words in h2 tag
 
 - Change the layout
+
+---
 
 Tools
 ---
